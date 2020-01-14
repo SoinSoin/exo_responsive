@@ -1,0 +1,66 @@
+$bg-ma-div: #FFDFBF;
+$bg-mon-block: #CCFF99;
+
+@media screen {
+    div {
+        &.maDiv {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFDFBF;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: $bg-ma-div;
+        }
+
+        &.monBlock {
+            margin: 5px;
+            padding: 5rem 10rem;
+            float: left;
+            background-color: $bg-mon-block;
+
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .maDiv {
+            min-width: 1200px;
+        }
+    }
+
+    @media (min-width: 961px) and (max-width:1199px) {
+        .maDiv {
+            max-width: 1199px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width:960px) {
+        .maDiv {
+            max-width: 960px;
+        }
+
+    }
+
+    @media (min-width: 480px) and (max-width:767px) {
+        .maDiv {
+            max-width: 767px;
+        }
+
+    }
+
+    @media (max-width: 479px) {
+        .maDiv {
+            max-width: 100%;
+        }
+    }
+}
+
+
+
+
+// @media screen and (max-width: 479px) {
+//     .maDiv {
+//         max-width: 480px;
+//     }
+// }

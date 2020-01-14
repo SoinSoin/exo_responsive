@@ -1,0 +1,56 @@
+@media screen {
+  div.maDiv {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFDFBF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #FFDFBF;
+  }
+  div.monBlock {
+    margin: 5px;
+    padding: 5rem 10rem;
+    float: left;
+    background-color: #CCFF99;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .maDiv {
+    min-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1199px) {
+  .maDiv {
+    max-width: 1199px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .maDiv {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .maDiv {
+    max-width: 767px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .maDiv {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
